@@ -1,0 +1,25 @@
+FORMAT: 1A
+
+# Energy API
+
+## Customer [/customer]
+### View [GET]
+- Response 200 (application/json; charset=utf-8)
+    - Attributes (Customer)
+        
+        
+
+# Data Structures
+
+# Customer (object)
+- name: Z 
+- email: z@apiary.io
+- address
+    - street
+    - city
+- reports (array[Usage Report])
+
+# Usage Report (object)
+- gas_usage
+- gas_cost (number) - Price in USD
+- electricity_usage: 12323 (number) - Usage of Electricity in kWh.
